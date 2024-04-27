@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/Logo-Pesat.png" type="image/x-icon">
+    <title>Dheevand</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        .section1-1 {
+            margin-left:200px ;
+        }
+        .section1-2 {
+            margin-left: 20px;
+        }
+        .ilustration-1 {
+            height: 400px;
+        }
+        .ilustration-3 {
+            height: 250px;
+        }
+        .section-bg-custom {
+            background-color: #ffffffec;
+        }
+        .nav-tabs {
+            --bs-nav-tabs-border-color: #fff;
+            --bs-nav-tabs-link-active-border-color: #fff #fff #000;
+        }
+        .link-tab-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: .02em;
+            line-height: 1.688rem;
+            margin-bottom:0.4rem ;
+        }
+        .link-tab-desc {
+            font-size: 1rem;
+            letter-spacing: .005em;
+            line-height: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+        .icon-quote {
+            font-size: 6em;
+            color: #000;
+            margin-left: -16px;
+        }
+        .quote {
+            margin-top: -20px;
+            margin-right: 100px;
+            color: #717b8a;
+            font-size: 1.75rem;
+            letter-spacing: .02em;
+            line-height: 2.875rem;
+        }
+        .picture-tab-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: .02em;
+            line-height: 1.688rem;
+            color: #686868;
+        }
+        .picture-tab-desc {
+            font-size: 1rem;
+            letter-spacing: .005em;
+            line-height: 1.5rem;
+            color: #686868;
+        }
+        .social-icon {
+            font-size: 30px;
+        }
+        .social-icon:hover {
+            color: #ffffff !important;
+        }
+        .menu-footer {
+            display: block;
+            text-decoration: none;
+            color: rgba(255, 193, 7, 0.70);
+        }
+        .menu-footer:hover {
+            color: rgba(255, 193, 7, 1) !important;
+        }
+
+        @media only screen and (max-width: 576px) {
+            .section1-1 {
+            margin-left:auto ;
+            margin-right: auto;
+            margin-top: 30px;
+        }
+            .section1-2 {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+            .section5-1 {
+                padding-left: 30px;
+                padding-right: 30px;
+        }
+            .ilustration-1 {
+            height: 300px;
+        }
+            .ilustration-2 {
+            width: 240px;
+            margin-bottom:20px ;
+        }
+        .ilustration-3 {
+            height: 200px;
+            margin-bottom: 20px;
+        }
+        }
+        
+    </style>
+</head>
+<body>
+<header class="container-fluid p-0">
+        <nav class="navbar fixed-top navbar-expand-lg bg-black" data-bs-theme="dark" >
+            <div class="container-fluid text-black">
+              <a class="navbar-brand" href="https://samsung.com" target="_blank">
+                SAMSUNG
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      New Arrival
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Z Flip 5 / Z Fold 5</a></li>
+                      <li><a class="dropdown-item" href="#">Galaxy S24 Series</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Galaxy Tab S9 Series, Galaxy Watch 6</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Smart Things
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Freestyle</a></li>
+                      <li><a class="dropdown-item" href="#">BESPOKE Microwave</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Qristal UHD TV</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="container-fluid" style="margin-top: 67.6px ;">
+        <section class="row bg-white text-white py-5">
+            <div class="col-sm-6 order-md-last">
+                <div class="section1-2">
+                    <div data-aos="fade-left">
+                       <img src="images/S24 U.png" alt="ilustration-1" class="ilustration-1"> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="section1-1">
+                    <h1 class="text-black">Galaxy S24 Series</h1>
+                    <p class="text-black">GALAXY AI IS HERE</p>
+                    <button class="btn btn-lg btn-warning mt-4">View More</button>
+                </div>
+            </div>
+        </section>
+        <section class="row py-5">
+            <div class="col text-center">
+                <strong>GALAXY AI</strong>
+                <h1>FIND MORE</h1>
+                <div class="lead mb-4">Smartphones, Tablets, Watches, Buds</div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-5">
+                        <div class="row">
+                            <div class="col-sm-9 mb-3">
+                                <input type="text" class="form-control" placeholder="Search here...">
+                            </div>
+                            <div class="col-sm-3 mb-3">
+                                <button class="btn btn-warning">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4>
+                    The New Arrival Is
+                    <small class="text-warning">Here !</small>
+                </h4>
+            </div>
+        </section>
+        <section class="row section-bg-custom py-5">
+            <div class="col text-center">
+                <h1>Recommended For You</h1>
+                <div class="row justify-content-center">
+                    <div class="col-sm-5">
+                        <p class="lead">
+                            <small>Tablets, Watches, Smartphones, Tv's, Buds, Air Puffer</small>
+                        </p>
+                    </div>
+                </div>
+                <div data-aos="zoom-out">
+                   <div class="row justify-content-center">
+                    <div class="col-sm-2">
+                        <div class="card">
+                            <div class="card-body" style="text-align: left;">
+                                <h5>Galaxy S23 FE 5G</h5>
+                                <small class="text-muted">Epic Nightography with premium design and the best shot</small>
+                                <div class="my-4">
+                                    <div class="badge bg-success">128/256</div>
+                                </div>
+                                <h4><div class="text-warning" style="display: inline;">Epic</div>Nightography</h4>
+                                <div class="text-center my-4">
+                                    <button class="btn btn-outline-warning">Buy Now</button>
+                                </div>
+                                <div class="text-muted">8.999.000/9.999.000</div>
+                                <div class="d-flex flex-row justify-content-beetween">
+                                    <div class="d-flex flex-row">
+                                        <div class="p-2">
+                                            <i class="bi-check-circle-fill" style="color: #efa500;"></i>
+                                        </div>
+                                        <div class="p-2">5G</div>
+                                    </div>
+                                    <div class="p-2">
+                                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover"  data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Best Internet">
+                                            <i class="bi bi-award"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-beetween">
+                                    <div class="d-flex flex-row">
+                                        <div class="p-2">
+                                            <i class="bi-check-circle-fill" style="color: #00ab11;"></i>
+                                        </div>
+                                        <div class="p-2">IP 68 dust and water ressist</div>
+                                    </div>
+                                    <div class="p-2">
+                                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover"  data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Best Protection">
+                                            <i class="bi bi-award"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-beetween">
+                                    <div class="d-flex flex-row">
+                                        <div class="p-2">
+                                            <i class="bi-check-circle-fill" style="color: #e20000;"></i>
+                                        </div>
+                                        <div class="p-2">Epic Shot</div>
+                                    </div>
+                                    <div class="p-2">
+                                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover"  data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Best Photography">
+                                            <i class="bi bi-award"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="text-center">
+                                    <button class="btn btn-primary">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="card">
+                            <div class="card-body" style="text-align: left;">
+                                <h5>Galaxy Tab S9 FE 5G</h5>
+                                <small class="text-muted">Epic drawing with S-Pen</small>
+                                <div class="my-4">
+                                    <div class="badge bg-success">128/256</div>
+                                </div>
+                                <h4><div class="text-warning" style="display: inline;">Epic</div>Drawing</h4>
+                                <div class="text-center my-4">
+                                    <button class="btn btn-outline-warning">Buy Now</button>
+                                </div>
+                                <div class="text-muted">7.499.00/7.999.000</div>
+                                <div class="d-flex flex-row justify-content-beetween">
+                                    <div class="d-flex flex-row">
+                                        <div class="p-2">
+                                            <i class="bi-check-circle-fill" style="color: #efa500;"></i>
+                                        </div>
+                                        <div class="p-2">Epic Drawing with S-Pen</div>
+                                    </div>
+                                    <div class="p-2">
+                                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover"  data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Best S Pen">
+                                            <i class="bi bi-award"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-beetween">
+                                    <div class="d-flex flex-row">
+                                        <div class="p-2">
+                                            <i class="bi-check-circle-fill" style="color: #00ab11;"></i>
+                                        </div>
+                                        <div class="p-2">10 inch display</div>
+                                    </div>
+                                    <div class="p-2">
+                                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover"  data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Best Display">
+                                            <i class="bi bi-award"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-beetween">
+                                    <div class="d-flex flex-row">
+                                        <div class="p-2">
+                                            <i class="bi-check-circle-fill" style="color: #e20000;"></i>
+                                        </div>
+                                        <div class="p-2">Epic gaming experience</div>
+                                    </div>
+                                    <div class="p-2">
+                                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover"  data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Best Gaming">
+                                            <i class="bi bi-award"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="text-center">
+                                    <button class="btn btn-primary">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="card border-warning">
+                            <div class="card-header">MOST RECOMMENDED</div>
+                            <div class="card-body" style="text-align: left;">
+                                <h5>Galaxy S24 Ultra 5G</h5>
+                                <small class="text-muted">Epic photography and videography, Epic and boost gaming experience, Built in S-Pen</small>
+                                <div class="my-4">
+                                    <div class="badge bg-success">256/512/1TB</div>
+                                </div>
+                                <h4><div class="text-warning" style="display: inline;">Epic</div>Moon Shot</h4>
+                                <div class="text-center my-4">
+                                    <button class="btn btn-outline-warning">Buy Now</button>
+                                </div>
+                                <div class="text-muted">20.999.000/21.999.000/22.999.000</div>
+                                <div class="d-flex flex-row justify-content-beetween">
+                                    <div class="d-flex flex-row">
+                                        <div class="p-2">
+                                            <i class="bi-check-circle-fill" style="color: #efa500;"></i>
+                                        </div>
+                                        <div class="p-2">Epic Moon Shot</div>
+                                    </div>
+                                    <div class="p-2">
+                                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover"  data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Best Zoom">
+                                            <i class="bi bi-award"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-beetween">
+                                    <div class="d-flex flex-row">
+                                        <div class="p-2">
+                                            <i class="bi-check-circle-fill" style="color: #00ab11;"></i>
+                                        </div>
+                                        <div class="p-2">Draw With Ease</div>
+                                    </div>
+                                    <div class="p-2">
+                                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover"  data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Best Built-in Pen">
+                                            <i class="bi bi-award"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-beetween">
+                                    <div class="d-flex flex-row">
+                                        <div class="p-2">
+                                            <i class="bi-check-circle-fill" style="color: #e20000;"></i>
+                                        </div>
+                                        <div class="p-2">200 MP Camera</div>
+                                    </div>
+                                    <div class="p-2">
+                                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover"  data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Best Camera">
+                                            <i class="bi bi-award"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="text-center">
+                                    <button class="btn btn-primary">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="card">
+                            <div class="card-body" style="text-align: left;">
+                                <h5>Galaxy Watch 6</h5>
+                                <small class="text-muted">Smart watch with ease information exchange</small>
+                                <div class="my-4">
+                                    <div class="badge bg-success">42mm/44mm</div>
+                                </div>
+                                <h4><div class="text-warning" style="display: inline;">Smart</div>Watch</h4>
+                                <div class="text-center my-4">
+                                    <button class="btn btn-outline-warning">Buy Now</button>
+                                </div>
+                                <div class="text-muted">3.999.000/4.499.000</div>
+                                <div class="d-flex flex-row justify-content-beetween">
+                                    <div class="d-flex flex-row">
+                                        <div class="p-2">
+                                            <i class="bi-check-circle-fill" style="color: #efa500;"></i>
+                                        </div>
+                                        <div class="p-2">Samsung Health</div>
+                                    </div>
+                                    <div class="p-2">
+                                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover"  data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Best Health Tracker App">
+                                            <i class="bi bi-award"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-beetween">
+                                    <div class="d-flex flex-row">
+                                        <div class="p-2">
+                                            <i class="bi-check-circle-fill" style="color: #00ab11;"></i>
+                                        </div>
+                                        <div class="p-2">With Biometric Sensor</div>
+                                    </div>
+                                    <div class="p-2">
+                                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover"  data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="That let you know about your fit">
+                                            <i class="bi bi-award"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-beetween">
+                                    <div class="d-flex flex-row">
+                                        <div class="p-2">
+                                            <i class="bi-check-circle-fill" style="color: #e20000;"></i>
+                                        </div>
+                                        <div class="p-2">Health Tracker</div>
+                                    </div>
+                                    <div class="p-2">
+                                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover"  data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="That let you know about your fit">
+                                            <i class="bi bi-award"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="text-center">
+                                    <button class="btn btn-primary">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+                
+                
+            </div>
+        </section>
+        <section class="row section-bg-custom justify-content-center py-5">
+            <div class="col-sm-8">
+                <div class="card bg-black text-light">
+                    <div class="card-body">
+                        <div class="row p-4">
+                            <div class="col-sm-6 order-md-last text-center">
+                              <div data-aos="zoom-out-down">
+                                <img src="images/s24 ultra.png" alt="ilustration-2" class="ilustration-2">
+                              </div>  
+                            </div>
+                            <div class="col-sm-6">
+                                <h1 class="mb-4">Galaxy S24 Ultra</h1>
+                                <p>Welcome to the era of mobile AI. With Galaxy S24 Ultra in your hands, you can unleash whole new levels of creativity, productivity and possibility — starting with the most important device in your life. Your smartphone.</p>
+                                <button class="btn btn-lg btn-warning mt-4">View More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="row section-bg-custom justify-content-center py-5">
+            <div class="col-sm-8">
+                <div data-aos="fade-left">
+                    <div class="row">
+                    <div class="col-sm-6 text-center">
+                        <img src="images/awesome a35a55.png" alt="ilustration-3" class="ilustration-3">
+                    </div>
+                    <div class="col-sm-6 section5-1">
+                        <h5 class="text-muted">New Arrival</h5>
+                        <h1>Galaxy A55 5G</h1>
+                        <p>Meet the Galaxy A55 5G. The simple yet improved Galaxy A series comes in an iconic design featuring a 3-camera layout in a metal flat frame design for an easy and intuitive grip. Plus, its built with Corning® Gorilla® Glass Victus®+ making it tougher and more damage-resistant.</p>
+                    </div>
+                </div>
+                <div data-aos="fade-right">
+                    <div class="row my-5">
+                    <div class="col-sm-6 text-center order-md-last">
+                        <img src="images/S23 fe.png" alt="ilustration-4" class="ilustration-3">
+                    </div>
+                    <div class="col-sm-6 section5-1">
+                        <h5 class="text-muted">New Arrival</h5>
+                        <h1>Galaxy S23 FE 5G</h1>
+                        <p>Start your epic experience
+                          Now, everyone can experience epic moments. Galaxy S23 FE opens the door to extraordinary experiences for everyone. With long-lasting power and stunning night photos, this smartphone will be the key behind epic memories that always shine.</p>
+                    </div>
+                </div>
+                </div>
+                
+                <div data-aos="fade-left">
+                    <div class="row">
+                    <div class="col-sm-6 text-center">
+                        <img src="images/Z flip 5.png" alt="ilustration-5" class="ilustration-3">
+                    </div>
+                    <div class="col-sm-6 section5-1">
+                        <h5 class="text-muted">New Arrival</h5>
+                        <h1>Galaxy Z Flip 5 5G</h1>
+                        <p>Galaxy Z Flip5 comes with a 3.4 inch Flex Window designed for self-expression. 6 Compact and attractive from every angle, this foldable phone is not only portable, but also flexible.</p>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="row justify-content-center py-5">
+            <div class="col-sm-8">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                
+                                <div class="quote mb-5">
+                                  <h1 class="text-black">Galaxy Buds 2 Pro</h1>
+                                  With intelligent 360 Audio, the sound feels more realistic. The 360 Audio with Direct Multi-channel (5.1ch / 7.1ch), Dolby Atmos ® and enhanced head tracking make every movement stay in sync — creating an immersive experience. 360 Audio can even pinpoint the direction of the sound as you move your head, giving you the spatial experience. 4, 5
+                                </div>
+                                <button class="btn btn-lg btn-warning text-black">View More</button>
+                            </div>
+                            <div class="col-sm-4">
+                              <div data-aos="flip-up">
+                                <img src="images/Buds 2 pro.png" class="img-fluid">
+                                <p class="picture-tab-title text-center mt-3 mb-1">Galaxy Buds 2 Pro</p>
+                                <p class="picture-tab-desc text-center">Immersive Audio Experience</p>
+                              </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                
+                                <div class="quote mb-5">
+                                  <h1 class="text-black">Galaxy Watch 6 Classic</h1>
+                                  Timeless classic style. Inspired by iconic dive watch designs, the slim rotating bezel on the Galaxy Watch6 brings a touch of the past with smooth, responsive scrolling for easy screen interaction. The circular frame is made of stainless steel which will enhance the appearance of the watch.
+                                </div>
+                                <button class="btn btn-lg btn-warning text-black">View more</button>
+                            </div>
+                            <div class="col-sm-4">
+                              <div data-aos="flip-up">
+                                <img src="images/Galaxy watch 6 classic.png" class="img-fluid">
+                                <p class="picture-tab-title text-center mt-3 mb-1">Galaxy Watch 6 Classic 46mm</p>
+                                <p class="picture-tab-desc text-center">Fitness Tracking</p>
+                              </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                
+                                <div class="quote mb-5">
+                                  <h1 class="text-black">Galaxy Tab S9 FE+ 5G </h1>
+                                  Ready to make your creative ideas come true. These three tablets are equipped with a Dynamic AMOLED 2X screen which will provide stunning colors and visuals. Additionally, this screen will protect your eyes by reducing blue light emissions.
+                                </div>
+                                <button class="btn btn-lg btn-warning text-black">View More</button>
+                            </div>
+                            <div class="col-sm-4">
+                              <div data-aos="flip-up">
+                                <img src="images/tab s9 fe+.png" class="img-fluid">
+                                <p class="picture-tab-title text-center mt-3 mb-1">Galaxy Tab S9 FE+ 5G</p>
+                                <p class="picture-tab-desc text-center">Dynamic AMOLED 2X</p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <nav class="mt-5">
+                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                      <button class="nav-link active text-black" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+                        <p class="link-tab-title">Galaxy Buds 2 Pro</p>
+                        <p class="link-tab-desc">Immersive Hight 24-bit Audio Quality</p>
+                      </button>
+                      <button class="nav-link text-black" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+                        <p class="link-tab-title">Galaxy Watch 6 Classic</p>
+                        <p class="link-tab-desc">Immersive Fitness Health Tracking</p>
+                      </button>
+                      <button class="nav-link text-black" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
+                        <p class="link-tab-title">Galaxy Tab S9 FE+ 5G</p>
+                        <p class="link-tab-desc">Immersive Display</p>
+                      </button>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <section class="row section-bg-custom justify-content-center py-5">
+            <div class="col-sm-8">
+                <h1 class="mb-5 text-center">VIEW MORE</h1>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item mb-3">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          About us
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vel voluptates qui doloremque distinctio tenetur omnis, velit aliquam dignissimos rem autem sequi debitis quibusdam, quidem inventore, esse quae saepe magnam?
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Old Devices
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quisquam distinctio laborum magni, necessitatibus facere quam alias quis atque velit tempora iure! Officiis aperiam quae quia beatae doloribus distinctio autem?
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Trade In
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quibusdam iste optio omnis ipsa neque officia magnam porro maxime, quam cumque ea perspiciatis vitae obcaecati ratione, dolor atque molestias eos.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            Galaxy A Series
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam voluptate, non aliquid velit alias atque accusantium et dolorem quisquam iste natus fuga ratione recusandae cumque autem esse beatae ipsa nihil!
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                            Galaxy S Series
+                          </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quae odio sed repudiandae dolores fugit a, voluptates quod omnis assumenda ut quasi, velit vero quas aspernatur voluptatibus enim. Alias, qui.
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid py-2 bg-black text-warning">
+        <div class="row justify-content-center my-5">
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-3 mb-5">
+                        <div class="mb-4 text-center">
+                            <img src="images/logo.png" alt="Logo Pesat" width="40px" class="d-inline-block">SAMSUNG.COM
+                        </div>
+                        <p class="mb-3">Thanks to visit our website</p>
+                        <p class="mb-3">Give us feed back!</p>
+                        <p class="mb-1">Email: <a href="mailto:dheevandhakim@gmail.com">dheevandhakim@gmail.com</a></p>
+                        <p class="mb-3">Whatsapp: <a href="https://wa.me/+6281284070814" target="_blank">081284070814</a></p>
+                        <div class="d-flex flex-row mb-2">
+                            <a href="https://www.instagram.com" class="text-warning social-icon" target="_blank">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="https://t.me" class="text-warning social-icon mx-4" target="_blank">
+                                <i class="bi bi-telegram"></i>
+                            </a>
+                            <a href="https://www.facebook.com" class="text-warning social-icon" target="_blank">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </div>    
+                        <div class="d-flex flex-row">
+                            <a href="https://twitter.com" class="text-warning social-icon" target="_blank">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                            <a href="https://www.tiktok.com" class="text-warning social-icon mx-4" target="_blank">
+                                <i class="bi bi-tiktok"></i>
+                            </a>
+                            <a href="https://www.youtube.com" class="text-warning social-icon" target="_blank">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 text-center">
+                        <div class="mb-3"><strong>A Series</strong></div>
+                        <div class="mb-3">
+                            <a href="#" class="menu-footer">A0*</a>
+                            <a href="#" class="menu-footer">A1*</a>
+                            <a href="#" class="menu-footer">A2*</a>
+                            <a href="#" class="menu-footer">A3*</a>
+                            <a href="#" class="menu-footer">A5*</a>
+                        </div>
+                        <div class="mb-3"><strong>S Series</strong></div>
+                        <div class="mb-3">
+                            <a href="#" class="menu-footer">S20</a>
+                            <a href="#" class="menu-footer">S21</a>
+                            <a href="#" class="menu-footer">S22</a>
+                            <a href="#" class="menu-footer">S23</a>
+                            <a href="#" class="menu-footer">S24</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-2 text-center">
+                        <div class="mb-3"><strong>Smart Things</strong></div>
+                        <div class="mb-3">
+                            <a href="#" class="menu-footer">Watches</a>
+                            <a href="#" class="menu-footer">Tv</a>
+                            <a href="#" class="menu-footer">Buds</a>
+                            <a href="#" class="menu-footer">Air Puffer</a>
+                        </div>
+                        <div class="mb-3"><strong>Most Favorites</strong></div>
+                        <div class="mb-3">
+                            <a href="#" class="menu-footer">S24</a>
+                            <a href="#" class="menu-footer">Galaxy AI</a>
+                            <a href="#" class="menu-footer">Tab S9 FE</a>
+                            <a href="#" class="menu-footer">S23 FE</a>
+                            <a href="#" class="menu-footer">S23</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 text-center">
+                        <div class="mb-3"><strong>Gorilla Glass</strong></div>
+                        <div class="mb-3">
+                            <a href="#" class="menu-footer">GG 5</a>
+                            <a href="#" class="menu-footer">GG Victus®</a>
+                            <a href="#" class="menu-footer">GG Victus+®</a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-sm-2 text-center">
+                        <div class="mb-3"><strong>Watches</strong></div>
+                        <div class="mb-3">
+                            <a href="#" class="menu-footer">Watch 4 LTE</a>
+                            <a href="#" class="menu-footer">Watch 4 Bluetooth</a>
+                            <a href="#" class="menu-footer">Watch 4 Classic</a>
+                            <a href="#" class="menu-footer">Watch 5 Bluetooth</a>
+                            <a href="#" class="menu-footer">Watch 5 Pro</a>
+                        </div>
+                    </div>
+                </div>
+                <hr style="border-width: 5px;">
+                <div class="row justify-content-between">
+                    <div class="col-sm-6">Copyright &copy;2023 Pesat</div>
+                    <div class="col-sm-6">Powered By Studentday Web Design</div>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+<script src="bootstrap-5.3.2/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>  
+<script>
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+</script>
+    <script src="https://cdn.jsdeliver.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>  
+</body>
+</html>
